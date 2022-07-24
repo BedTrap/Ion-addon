@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "me.ghosttypes.ion.mixins.meteor",
+  "compatibilityLevel": "JAVA_16",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ChatUtilsMixin",
+    "HandViewMixin",
+    "SystemsMixin",
+    "TitleScreenCreditsMixin",
+    "WaypointsMixin"
+  ],
+  "refmap": "ion-refmap.json"
+}

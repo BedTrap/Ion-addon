@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ion",
+  "version": "1.4.2",
+  "name": "Ion",
+  "description": "A combat addon for Meteor Client.",
+  "authors": [
+    "GhostTypes",
+    "Wide_Cat"
+  ],
+  "contact": {
+    "discord": "https://discord.gg/FRkh4hAVaf"
+  },
+  "icon": "assets/ion/textures/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "me.ghosttypes.ion.Ion"
+    ]
+  },
+  "mixins": [
+    "ion.mixins.json",
+    "meteor.ion.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color" : "138,7,7"
+  },
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">=1.19",
+    "meteor-client": ">0.4.6"
+  }
+}

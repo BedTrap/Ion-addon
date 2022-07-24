@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "me.ghosttypes.ion.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ClientConnectionMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "CrashReportMixin",
+    "EntityMixin",
+    "HeldItemRendererMixin",
+    "IClientPlayerInteractionManager",
+    "IClientWorld",
+    "ICustomPayloadS2CPacket",
+    "IHeldItemRenderer",
+    "NametagMixin"
+  ],
+  "refmap": "ion-refmap.json"
+}
